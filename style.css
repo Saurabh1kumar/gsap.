@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    height: 100vh;
+}
+
+#video1{
+    height: 120%;
+    position: absolute;
+    z-index: 1;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5;
+}
+#video2{
+    height: 118%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.container{
+    position: relative;
+    top: 80%;
+    left: 50%;
+    transform:translate(-50%,0%);
+    width: 15vw;
+    height: 10vh;
+    z-index: 9;
+}
+#dragme {
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    z-index: 2;
+    border: 2px dotted #fff;
+}
+.cir-p{
+    position: absolute;
+    right: 13%;
+    top: 40%;
+    width: 1vw;
+    height: 1vw;
+    background-color: rgb(132, 76, 158);
+    border-radius: 50%;
+}
